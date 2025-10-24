@@ -1,0 +1,46 @@
+# =========================
+# Git Ignore for SQL Project
+# =========================
+
+# Backup and data dump files
+*.bak
+*.backup
+*.sql~
+*.dump
+*.tar
+*.gz
+*.zip
+
+# Local database files (for SQLite or similar)
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+*.ldb
+
+# Temporary or cache files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.log
+
+# System or IDE specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# OS-specific
+desktop.ini
+
+# Node / npm (if used for front-end or tools)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment or credentials
+.env
+.env.local
+.env.*
